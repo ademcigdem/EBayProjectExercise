@@ -1,0 +1,152 @@
+INFO    2020-09-19 22:06:53,564 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 22:06:53,601 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+INFO    2020-09-19 22:07:44,889 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 22:12:36,293 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 22:12:36,318 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 22:12:41,505 [main] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-19 22:13:15,779 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 1325
+DEBUG   2020-09-19 22:13:19,883 [main] class com.ebay.step_definitions.SearchStepDefinitions  - true
+DEBUG   2020-09-19 22:13:19,884 [main] class com.ebay.step_definitions.SearchStepDefinitions  - org.openqa.selenium.interactions.Actions@1e54cb33
+DEBUG   2020-09-19 22:13:23,056 [main] class com.ebay.step_definitions.SearchStepDefinitions  - false
+DEBUG   2020-09-19 22:13:23,056 [main] class com.ebay.step_definitions.SearchStepDefinitions  - org.openqa.selenium.interactions.Actions@1e54cb33
+DEBUG   2020-09-19 22:13:25,704 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-19 22:13:25,725 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-19 22:13:25,727 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 22:30:51,116 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 22:30:51,133 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 22:30:56,951 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-19 22:31:38,857 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - 1325
+DEBUG   2020-09-19 22:31:42,641 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - true
+DEBUG   2020-09-19 22:31:45,721 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - false
+DEBUG   2020-09-19 22:31:48,551 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-19 22:31:48,569 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-19 22:31:48,571 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 22:33:55,194 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 22:33:55,261 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 22:34:02,239 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-19 22:34:58,376 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - 1327
+DEBUG   2020-09-19 22:35:00,680 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - true
+INFO    2020-09-19 22:35:01,084 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 22:35:11,586 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 22:35:11,587 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 22:35:16,898 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - Baby
+INFO    2020-09-19 22:35:17,789 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 22:35:34,957 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 22:35:34,958 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 22:35:41,725 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-19 22:36:27,802 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - 1327
+INFO    2020-09-19 22:36:30,039 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 22:37:46,174 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 22:37:46,200 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 22:37:52,237 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-19 22:38:26,359 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - 1327
+DEBUG   2020-09-19 22:38:30,482 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - true
+DEBUG   2020-09-19 22:38:33,617 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - false
+DEBUG   2020-09-19 22:38:36,350 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-19 22:38:36,364 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-19 22:38:36,366 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 22:38:42,576 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 22:38:42,577 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 22:38:48,083 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - Baby
+DEBUG   2020-09-19 22:38:50,039 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - 124
+INFO    2020-09-19 22:38:50,089 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 22:38:56,256 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 22:38:56,257 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 22:39:04,300 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-19 22:39:39,947 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - 1327
+INFO    2020-09-19 22:39:41,520 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 23:04:44,336 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 23:04:44,364 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 23:04:50,431 [main] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-19 23:05:25,012 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 1333
+DEBUG   2020-09-19 23:05:28,725 [main] class com.ebay.step_definitions.SearchStepDefinitions  - true
+DEBUG   2020-09-19 23:05:31,775 [main] class com.ebay.step_definitions.SearchStepDefinitions  - false
+DEBUG   2020-09-19 23:05:34,461 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-19 23:05:34,477 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-19 23:05:34,479 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 23:05:40,777 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 23:05:40,778 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 23:05:46,394 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Baby
+DEBUG   2020-09-19 23:05:48,298 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 124
+INFO    2020-09-19 23:05:48,348 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 23:05:54,570 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 23:05:54,571 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 23:06:00,274 [main] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-19 23:06:34,795 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 1334
+INFO    2020-09-19 23:06:37,047 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-19 23:59:12,948 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-19 23:59:12,991 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-19 23:59:21,582 [main] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-20 00:00:00,046 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 1335
+DEBUG   2020-09-20 00:00:03,741 [main] class com.ebay.step_definitions.SearchStepDefinitions  - true
+DEBUG   2020-09-20 00:00:06,905 [main] class com.ebay.step_definitions.SearchStepDefinitions  - false
+DEBUG   2020-09-20 00:00:10,314 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-20 00:00:10,330 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-20 00:00:10,334 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-20 00:00:16,825 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 00:00:16,826 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-20 00:00:23,281 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Baby
+DEBUG   2020-09-20 00:00:25,352 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 124
+INFO    2020-09-20 00:00:25,433 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-20 00:00:31,753 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 00:00:31,754 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-20 00:00:39,073 [main] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-20 00:01:15,036 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 1335
+INFO    2020-09-20 00:01:16,711 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-20 01:06:12,561 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 01:06:12,597 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-20 01:06:20,884 [main] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-20 01:07:01,507 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 1343
+DEBUG   2020-09-20 01:07:05,131 [main] class com.ebay.step_definitions.SearchStepDefinitions  - true
+DEBUG   2020-09-20 01:07:08,615 [main] class com.ebay.step_definitions.SearchStepDefinitions  - false
+DEBUG   2020-09-20 01:07:11,810 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-20 01:07:11,828 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-20 01:07:11,831 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-20 01:07:18,334 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 01:07:18,336 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-20 01:07:27,383 [main] class com.ebay.step_definitions.SearchStepDefinitions  - Baby
+DEBUG   2020-09-20 01:07:29,568 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 124
+INFO    2020-09-20 01:07:29,622 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-20 01:07:35,735 [main] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 01:07:35,737 [main] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-20 01:07:44,065 [main] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-20 01:08:23,283 [main] class com.ebay.step_definitions.SearchStepDefinitions  - 1343
+INFO    2020-09-20 01:08:25,108 [main] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-20 21:23:51,684 [pool-1-thread-2] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 21:23:51,790 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+INFO    2020-09-20 21:23:51,977 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 21:23:51,979 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-20 21:24:03,158 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-20 21:24:03,165 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-20 21:25:00,610 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - 1415
+DEBUG   2020-09-20 21:25:03,920 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - 1415
+DEBUG   2020-09-20 21:25:05,056 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - true
+DEBUG   2020-09-20 21:25:07,706 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - true
+DEBUG   2020-09-20 21:25:08,717 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - false
+DEBUG   2020-09-20 21:25:11,095 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - false
+DEBUG   2020-09-20 21:25:12,543 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-20 21:25:12,565 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-20 21:25:12,567 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+DEBUG   2020-09-20 21:25:15,618 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-20 21:25:15,640 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - Buy it now
+INFO    2020-09-20 21:25:15,641 [pool-1-thread-2] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-20 21:25:19,578 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 21:25:19,579 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+INFO    2020-09-20 21:25:22,124 [pool-1-thread-2] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 21:25:22,126 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-20 21:25:27,626 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - Baby
+DEBUG   2020-09-20 21:25:30,475 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - 124
+DEBUG   2020-09-20 21:25:30,624 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - Baby
+INFO    2020-09-20 21:25:30,631 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+DEBUG   2020-09-20 21:25:32,948 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - 124
+INFO    2020-09-20 21:25:33,137 [pool-1-thread-2] class com.ebay.step_definitions.Hooks  - After TearDown
+INFO    2020-09-20 21:25:38,015 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 21:25:38,016 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+INFO    2020-09-20 21:25:42,592 [pool-1-thread-2] class com.ebay.step_definitions.Hooks  - Before Setup Started
+INFO    2020-09-20 21:25:42,593 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - I am a non-registered customer
+DEBUG   2020-09-20 21:25:46,458 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-20 21:25:52,777 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - sebamed
+DEBUG   2020-09-20 21:26:41,161 [pool-1-thread-1] class com.ebay.step_definitions.SearchStepDefinitions  - 1415
+INFO    2020-09-20 21:26:43,338 [pool-1-thread-1] class com.ebay.step_definitions.Hooks  - After TearDown
+DEBUG   2020-09-20 21:26:48,269 [pool-1-thread-2] class com.ebay.step_definitions.SearchStepDefinitions  - 1415
+INFO    2020-09-20 21:26:49,724 [pool-1-thread-2] class com.ebay.step_definitions.Hooks  - After TearDown

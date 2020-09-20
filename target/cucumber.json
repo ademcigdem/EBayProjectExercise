@@ -1,0 +1,849 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-20T20:23:43.466Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8502000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search and verify results",
+        "description": "",
+        "id": "user-should-be-able-to-search-item--can-sort--filter-and-see-the-details-of-the-result-products;search-and-verify-results",
+        "after": [
+          {
+            "result": {
+              "duration": 865000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am a non-registered customer",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_am_a_non_registered_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5943000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to www.ebay.co.uk",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_navigate_to_www_ebay_co_uk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5234000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I search for an item",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_search_for_an_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57451000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I get a list of matching results",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_get_a_list_of_matching_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1601000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the resulting items cards show: postage price, No of bids, price or show BuyItNow tag",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_resulting_items_cards_show_postage_price_no_of_bids_price_or_show_buy_it_now_tag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2844000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can sort the results by Lowest Price",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_can_sort_the_results_by_lowest_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1466000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the results are listed in the page in the correct order",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_results_are_listed_in_the_page_in_the_correct_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2193000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I can sort the results by Highest Price",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_can_sort_the_results_by_highest_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1891000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the results are listed in the page in the correct order",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_results_are_listed_in_the_page_in_the_correct_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1935000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I can filter the results by \u0027Buy it now\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Buy it now\u0027",
+                  "offset": 28
+                }
+              ],
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_can_filter_the_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "all the results shown in the page have the \u0027Buy it now\u0027 tag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Buy it now\u0027",
+                  "offset": 43
+                }
+              ],
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.all_the_results_shown_in_the_page_have_the_tag(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@001"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-20T20:25:13.442Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6135000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Search per category",
+        "description": "",
+        "id": "user-should-be-able-to-search-item--can-sort--filter-and-see-the-details-of-the-result-products;search-per-category",
+        "after": [
+          {
+            "result": {
+              "duration": 1506000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am a non-registered customer",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_am_a_non_registered_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4141000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I navigate to www.ebay.co.uk",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_navigate_to_www_ebay_co_uk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3907000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter a search term and select a specific Category",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_enter_a_search_term_and_select_a_specific_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2848000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I get a list of matching results",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_get_a_list_of_matching_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I can verify that the results shown as per the the selected category",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_can_verify_that_the_results_shown_as_per_the_the_selected_category()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@002"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-20T20:25:32.152Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5863000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Search and navigate through results pages",
+        "description": "",
+        "id": "user-should-be-able-to-search-item--can-sort--filter-and-see-the-details-of-the-result-products;search-and-navigate-through-results-pages",
+        "after": [
+          {
+            "result": {
+              "duration": 891000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I am a non-registered customer",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_am_a_non_registered_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3546000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I navigate to www.ebay.co.uk",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_navigate_to_www_ebay_co_uk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4894000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I search for an item",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_search_for_an_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54703000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I get a list of matching results",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_get_a_list_of_matching_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the results show more than one page",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_results_show_more_than_one_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2157000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user can navigate through the pages to continue looking at the items",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_user_can_navigate_through_the_pages_to_continue_looking_at_the_items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@003"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to search item, can sort, filter and see the details of the result products",
+    "description": "",
+    "id": "user-should-be-able-to-search-item--can-sort--filter-and-see-the-details-of-the-result-products",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Search.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-20T20:23:43.468Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8273000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search and verify results",
+        "description": "",
+        "id": "user-should-be-able-to-search-item--can-sort--filter-and-see-the-details-of-the-result-products;search-and-verify-results",
+        "after": [
+          {
+            "result": {
+              "duration": 751000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am a non-registered customer",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_am_a_non_registered_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6172000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to www.ebay.co.uk",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_navigate_to_www_ebay_co_uk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5202000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I search for an item",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_search_for_an_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60752000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I get a list of matching results",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_get_a_list_of_matching_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1571000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the resulting items cards show: postage price, No of bids, price or show BuyItNow tag",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_resulting_items_cards_show_postage_price_no_of_bids_price_or_show_buy_it_now_tag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2214000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can sort the results by Lowest Price",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_can_sort_the_results_by_lowest_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1306000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the results are listed in the page in the correct order",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_results_are_listed_in_the_page_in_the_correct_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2082000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I can sort the results by Highest Price",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_can_sort_the_results_by_highest_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2032000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the results are listed in the page in the correct order",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_results_are_listed_in_the_page_in_the_correct_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2489000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I can filter the results by \u0027Buy it now\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Buy it now\u0027",
+                  "offset": 28
+                }
+              ],
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_can_filter_the_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "all the results shown in the page have the \u0027Buy it now\u0027 tag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Buy it now\u0027",
+                  "offset": 43
+                }
+              ],
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.all_the_results_shown_in_the_page_have_the_tag(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@001"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-20T20:25:16.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5713000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Search per category",
+        "description": "",
+        "id": "user-should-be-able-to-search-item--can-sort--filter-and-see-the-details-of-the-result-products;search-per-category",
+        "after": [
+          {
+            "result": {
+              "duration": 3271000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am a non-registered customer",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_am_a_non_registered_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4763000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I navigate to www.ebay.co.uk",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_navigate_to_www_ebay_co_uk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3734000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter a search term and select a specific Category",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_enter_a_search_term_and_select_a_specific_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2323000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I get a list of matching results",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_get_a_list_of_matching_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 187000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I can verify that the results shown as per the the selected category",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_can_verify_that_the_results_shown_as_per_the_the_selected_category()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@002"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-20T20:25:36.417Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6174000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Search and navigate through results pages",
+        "description": "",
+        "id": "user-should-be-able-to-search-item--can-sort--filter-and-see-the-details-of-the-result-products;search-and-navigate-through-results-pages",
+        "after": [
+          {
+            "result": {
+              "duration": 785000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ebay.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I am a non-registered customer",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_am_a_non_registered_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4874000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I navigate to www.ebay.co.uk",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_navigate_to_www_ebay_co_uk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5309000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I search for an item",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_search_for_an_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55491000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I get a list of matching results",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.i_get_a_list_of_matching_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the results show more than one page",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_results_show_more_than_one_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1439000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user can navigate through the pages to continue looking at the items",
+            "match": {
+              "location": "com.ebay.step_definitions.SearchStepDefinitions.the_user_can_navigate_through_the_pages_to_continue_looking_at_the_items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@003"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to search item, can sort, filter and see the details of the result products",
+    "description": "",
+    "id": "user-should-be-able-to-search-item--can-sort--filter-and-see-the-details-of-the-result-products",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Search2.feature",
+    "tags": []
+  }
+]

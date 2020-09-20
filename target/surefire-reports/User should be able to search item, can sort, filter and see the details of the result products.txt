@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: User should be able to search item, can sort, filter and see the details of the result products
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 123.432 s - in User should be able to search item, can sort, filter and see the details of the result products
