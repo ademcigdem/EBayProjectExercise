@@ -38,7 +38,7 @@ https://www.linkedin.com/in/adam-cigdem-2932931b4/
 
 
 ![](report_images/report1.png)
-![](report_images/cucumber report.png)   
+![](report_images/cucumber%20report.png)   
 
 
 
