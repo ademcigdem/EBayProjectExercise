@@ -15,7 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 import static org.junit.Assert.*;
 
 public class SearchStepDefinitions {
-    private static Logger logger = Logger.getLogger(String.valueOf(SearchStepDefinitions.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(SearchStepDefinitions.class));
     Actions actions = new Actions(Driver.get());
 
     Pages pages = new Pages(); // Pages class related with the all creating object.Just define in the pages all classes and it'll provide easy to access
@@ -26,7 +26,8 @@ public class SearchStepDefinitions {
 
     @Given("I am a non-registered customer")
     public void i_am_a_non_registered_customer() {
-        logger.info("I am a non-registered customer");
+
+        LOGGER.info("I am a non-registered customer");
     }
 
     @Given("I navigate to www.ebay.co.uk")
@@ -40,14 +41,14 @@ public class SearchStepDefinitions {
     public void i_search_for_an_item() {
         pages.homePage().searchInputBox.sendKeys(searchItemName);  //Keys.ENTER option
         pages.homePage().searchBtn.click();
-        logger.debug(searchItemName);
+        LOGGER.debug(searchItemName);
     }
 
     @Then("I get a list of matching results")
     public void i_get_a_list_of_matching_results() {
         totalResult = Integer.parseInt(pages.homePage().totalMatchResult.getText().replace(",", ""));
         pages.homePage().getMatchingResultMethod(searchItemName);
-        logger.debug(totalResult);
+        LOGGER.debug(totalResult);
     }
 
     @Then("the resulting items cards show: postage price, No of bids, price or show BuyItNow tag")
@@ -59,7 +60,7 @@ public class SearchStepDefinitions {
     public void i_can_sort_the_results_by_lowest_price() {
         ascOrderFlag = true;
         actions.moveToElement(pages.homePage().priceDropDown).click().moveToElement(pages.homePage().lowestPriceBtn).click().perform();
-        logger.debug(ascOrderFlag);
+        LOGGER.debug(ascOrderFlag);
     }
 
     @Then("the results are listed in the page in the correct order")
@@ -71,26 +72,26 @@ public class SearchStepDefinitions {
     public void i_can_sort_the_results_by_highest_price() {
         ascOrderFlag = false;
         actions.click(pages.homePage().priceDropDown).moveToElement(pages.homePage().highestPrice).click().perform();
-        logger.debug(ascOrderFlag);
+        LOGGER.debug(ascOrderFlag);
     }
 
     @Then("I can filter the results by {string}")
     public void i_can_filter_the_results_by(String buyItNow) {
         Driver.get().findElement(By.xpath("//h2[.='" + buyItNow + "']")).click();
-        logger.debug(buyItNow);
+        LOGGER.debug(buyItNow);
     }
 
     @Then("all the results shown in the page have the {string} tag")
     public void all_the_results_shown_in_the_page_have_the_tag(String buyItNow) {
         pages.homePage().getVerifyAllResultShowButItNowTag(buyItNow);
-        logger.info(buyItNow);
+        LOGGER.info(buyItNow);
     }
 
     @When("I enter a search term and select a specific Category")
     public void i_enter_a_search_term_and_select_a_specific_category() {
         pages.homePage().getCategoryDropDown().selectByVisibleText(categoryName);
         pages.homePage().searchInputBox.sendKeys(searchItemName, Keys.ENTER);
-        logger.debug(categoryName);
+        LOGGER.debug(categoryName);
 
     }
 

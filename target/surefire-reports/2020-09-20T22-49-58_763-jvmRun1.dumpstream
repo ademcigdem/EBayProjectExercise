@@ -1,0 +1,245 @@
+# Created at 2020-09-20T22:51:52.822
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-09-20T22:52:27.803
+Unexpected IOException: I,2,sun.desktop,windows
+
+
+# Created at 2020-09-20T22:52:27.813
+Unexpected IOException: I,2,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created at 2020-09-20T22:52:27.814
+Unexpected IOException: I,2,file.encoding.pkg,sun.io
+
+
+# Created at 2020-09-20T22:52:27.815
+Unexpected IOException: I,2,java.specification.version,1.8
+
+
+# Created at 2020-09-20T22:52:27.816
+Unexpected IOException: I,2,webdriver.chrome.driver,C:\005CUsers\005CUser\005C.m2\005Crepository\005Cwebdriver\005Cchromedriver\005Cwin32\005C85.0.4183.87\005Cchromedriver.exe
+
+
+# Created at 2020-09-20T22:52:27.817
+Unexpected IOException: I,2,sun.cpu.isalist,pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+
+
+# Created at 2020-09-20T22:52:27.818
+Unexpected IOException: I,2,sun.jnu.encoding,Cp1252
+
+
+# Created at 2020-09-20T22:52:27.820
+Unexpected IOException: I,2,java.class.path,C:\005CUsers\005CUser\005CLendInvestTaskProject\005Ctarget\005Ctest-classes;C:\005CUsers\005CUser\005CLendInvestTaskProject\005Ctarget\005Cclasses;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Cgithub\005Cbonigarcia\005Cwebdrivermanager\005C4.0.0\005Cwebdrivermanager-4.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.30\005Cslf4j-api-1.7.30.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.6\005Ccommons-io-2.6.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.6\005Cgson-2.8.6.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.10\005Ccommons-lang3-3.10.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Cclient5\005Chttpclient5\005C5.0\005Chttpclient5-5.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5\005C5.0\005Chttpcore5-5.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5-h2\005C5.0\005Chttpcore5-h2-5.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.13\005Ccommons-codec-1.13.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Crauschig\005Cjarchivelib\005C1.0.0\005Cjarchivelib-1.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-compress\005C1.18\005Ccommons-compress-1.18.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cjsoup\005Cjsoup\005C1.13.1\005Cjsoup-1.13.1.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C6.6.0\005Ccucumber-java-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C6.6.0\005Ccucumber-core-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C6.6.0\005Ccucumber-gherkin-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C6.6.0\005Ccucumber-gherkin-messages-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C13.0.1\005Cmessages-13.0.1.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C3.0.0\005Ctag-expressions-3.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C10.3.0\005Ccucumber-expressions-10.3.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C3.4.0\005Cdatatable-3.4.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C6.6.0\005Ccucumber-plugin-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C6.6.0\005Cdocstring-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C9.0.0\005Chtml-formatter-9.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccreate-meta\005C2.0.1\005Ccreate-meta-2.0.1.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.0\005Capiguardian-api-1.1.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C6.6.0\005Ccucumber-junit-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13\005Cjunit-4.13.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cprojectlombok\005Clombok\005C1.18.12\005Clombok-1.18.12.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Clog4j\005Clog4j\005C1.2.17\005Clog4j-1.2.17.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-jdk14\005C1.7.21\005Cslf4j-jdk14-1.7.21.jar;
+
+
+# Created at 2020-09-20T22:52:27.821
+Unexpected IOException: I,2,java.vm.vendor,Oracle Corporation
+
+
+# Created at 2020-09-20T22:52:27.823
+Unexpected IOException: I,2,sun.arch.data.model,32
+
+
+# Created at 2020-09-20T22:52:27.824
+Unexpected IOException: I,2,user.variant,
+
+
+# Created at 2020-09-20T22:52:27.825
+Unexpected IOException: I,2,java.vendor.url,http://java.oracle.com/
+
+
+# Created at 2020-09-20T22:52:27.826
+Unexpected IOException: I,2,user.timezone,Europe/London
+
+
+# Created at 2020-09-20T22:52:27.827
+Unexpected IOException: I,2,os.name,Windows 10
+
+
+# Created at 2020-09-20T22:52:27.828
+Unexpected IOException: I,2,java.vm.specification.version,1.8
+
+
+# Created at 2020-09-20T22:52:27.829
+Unexpected IOException: I,2,user.country,US
+
+
+# Created at 2020-09-20T22:52:27.830
+Unexpected IOException: I,2,sun.java.launcher,SUN_STANDARD
+
+
+# Created at 2020-09-20T22:52:27.831
+Unexpected IOException: I,2,sun.boot.library.path,C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Cbin
+
+
+# Created at 2020-09-20T22:52:27.832
+Unexpected IOException: I,2,sun.java.command,C:\005CUsers\005CUser\005CAppData\005CLocal\005CTemp\005Csurefire1982368417857191297\005Csurefirebooter4185606909103701499.jar C:\005CUsers\005CUser\005CAppData\005CLocal\005CTemp\005Csurefire1982368417857191297 2020-09-20T22-49-58_763-jvmRun1 surefire8268915929816075337tmp surefire_01465509700311953426tmp
+
+
+# Created at 2020-09-20T22:52:27.833
+Unexpected IOException: I,2,surefire.test.class.path,C:\005CUsers\005CUser\005CLendInvestTaskProject\005Ctarget\005Ctest-classes;C:\005CUsers\005CUser\005CLendInvestTaskProject\005Ctarget\005Cclasses;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Cgithub\005Cbonigarcia\005Cwebdrivermanager\005C4.0.0\005Cwebdrivermanager-4.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.30\005Cslf4j-api-1.7.30.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.6\005Ccommons-io-2.6.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.6\005Cgson-2.8.6.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.10\005Ccommons-lang3-3.10.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Cclient5\005Chttpclient5\005C5.0\005Chttpclient5-5.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5\005C5.0\005Chttpcore5-5.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Ccore5\005Chttpcore5-h2\005C5.0\005Chttpcore5-h2-5.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.13\005Ccommons-codec-1.13.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Crauschig\005Cjarchivelib\005C1.0.0\005Cjarchivelib-1.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-compress\005C1.18\005Ccommons-compress-1.18.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cjsoup\005Cjsoup\005C1.13.1\005Cjsoup-1.13.1.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C6.6.0\005Ccucumber-java-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C6.6.0\005Ccucumber-core-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin\005C6.6.0\005Ccucumber-gherkin-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-gherkin-messages\005C6.6.0\005Ccucumber-gherkin-messages-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Cmessages\005C13.0.1\005Cmessages-13.0.1.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C3.0.0\005Ctag-expressions-3.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-expressions\005C10.3.0\005Ccucumber-expressions-10.3.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdatatable\005C3.4.0\005Cdatatable-3.4.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-plugin\005C6.6.0\005Ccucumber-plugin-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Cdocstring\005C6.6.0\005Cdocstring-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Chtml-formatter\005C9.0.0\005Chtml-formatter-9.0.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccreate-meta\005C2.0.1\005Ccreate-meta-2.0.1.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Capiguardian\005Capiguardian-api\005C1.1.0\005Capiguardian-api-1.1.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C6.6.0\005Ccucumber-junit-6.6.0.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.13\005Cjunit-4.13.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cprojectlombok\005Clombok\005C1.18.12\005Clombok-1.18.12.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Clog4j\005Clog4j\005C1.2.17\005Clog4j-1.2.17.jar;C:\005CUsers\005CUser\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-jdk14\005C1.7.21\005Cslf4j-jdk14-1.7.21.jar;
+
+
+# Created at 2020-09-20T22:52:27.834
+Unexpected IOException: I,2,sun.cpu.endian,little
+
+
+# Created at 2020-09-20T22:52:27.836
+Unexpected IOException: I,2,user.home,C:\005CUsers\005CUser
+
+
+# Created at 2020-09-20T22:52:27.837
+Unexpected IOException: I,2,user.language,en
+
+
+# Created at 2020-09-20T22:52:27.838
+Unexpected IOException: I,2,java.specification.vendor,Oracle Corporation
+
+
+# Created at 2020-09-20T22:52:27.838
+Unexpected IOException: I,2,java.home,C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre
+
+
+# Created at 2020-09-20T22:52:27.839
+Unexpected IOException: I,2,basedir,C:\005CUsers\005CUser\005CLendInvestTaskProject
+
+
+# Created at 2020-09-20T22:52:27.841
+Unexpected IOException: I,2,file.separator,\005C
+
+
+# Created at 2020-09-20T22:52:27.841
+Unexpected IOException: I,2,line.separator,\000D\000A
+
+
+# Created at 2020-09-20T22:52:27.842
+Unexpected IOException: I,2,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created at 2020-09-20T22:52:27.843
+Unexpected IOException: I,2,java.specification.name,Java Platform API Specification
+
+
+# Created at 2020-09-20T22:52:27.844
+Unexpected IOException: I,2,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created at 2020-09-20T22:52:27.845
+Unexpected IOException: I,2,surefire.real.class.path,C:\005CUsers\005CUser\005CAppData\005CLocal\005CTemp\005Csurefire1982368417857191297\005Csurefirebooter4185606909103701499.jar
+
+
+# Created at 2020-09-20T22:52:27.846
+Unexpected IOException: I,2,sun.boot.class.path,C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Clib\005Cresources.jar;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Clib\005Crt.jar;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Clib\005Csunrsasign.jar;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Clib\005Cjsse.jar;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Clib\005Cjce.jar;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Clib\005Ccharsets.jar;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Clib\005Cjfr.jar;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Cclasses
+
+
+# Created at 2020-09-20T22:52:27.846
+Unexpected IOException: I,2,user.script,
+
+
+# Created at 2020-09-20T22:52:27.847
+Unexpected IOException: I,2,sun.management.compiler,HotSpot Client Compiler
+
+
+# Created at 2020-09-20T22:52:27.848
+Unexpected IOException: I,2,java.runtime.version,1.8.0_211-b12
+
+
+# Created at 2020-09-20T22:52:27.849
+Unexpected IOException: I,2,user.name,User
+
+
+# Created at 2020-09-20T22:52:27.853
+Unexpected IOException: I,2,path.separator,;
+
+
+# Created at 2020-09-20T22:52:27.854
+Unexpected IOException: I,2,os.version,10.0
+
+
+# Created at 2020-09-20T22:52:27.855
+Unexpected IOException: I,2,java.endorsed.dirs,C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Clib\005Cendorsed
+
+
+# Created at 2020-09-20T22:52:27.856
+Unexpected IOException: I,2,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created at 2020-09-20T22:52:27.924
+Unexpected IOException: I,2,file.encoding,Cp1252
+
+
+# Created at 2020-09-20T22:52:27.957
+Unexpected IOException: I,2,java.vm.name,Java HotSpot(TM) Client VM
+
+
+# Created at 2020-09-20T22:52:27.957
+Unexpected IOException: I,2,localRepository,C:\005CUsers\005CUser\005C.m2\005Crepository
+
+
+# Created at 2020-09-20T22:52:27.958
+Unexpected IOException: I,2,java.vendor.url.bug,http://bugreport.sun.com/bugreport/
+
+
+# Created at 2020-09-20T22:52:27.959
+Unexpected IOException: I,2,java.io.tmpdir,C:\005CUsers\005CUser\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created at 2020-09-20T22:52:27.960
+Unexpected IOException: I,2,java.version,1.8.0_211
+
+
+# Created at 2020-09-20T22:52:27.963
+Unexpected IOException: I,2,user.dir,C:\005CUsers\005CUser\005CLendInvestTaskProject
+
+
+# Created at 2020-09-20T22:52:27.964
+Unexpected IOException: I,2,os.arch,x86
+
+
+# Created at 2020-09-20T22:52:27.966
+Unexpected IOException: I,2,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created at 2020-09-20T22:52:27.968
+Unexpected IOException: I,2,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created at 2020-09-20T22:52:27.969
+Unexpected IOException: I,2,sun.os.patch.level,
+
+
+# Created at 2020-09-20T22:52:27.970
+Unexpected IOException: I,2,java.library.path,C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Cbin;C:\005CWINDOWS\005CSun\005CJava\005Cbin;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CProgram Files (x86)\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005CProgram Files (x86)\005CIntel\005CiCLS Client\005C;C:\005CProgram Files\005CIntel\005CiCLS Client\005C;C:\005CWINDOWS\005Csystem32;C:\005CWINDOWS;C:\005CWINDOWS\005CSystem32\005CWbem;C:\005CWINDOWS\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CProgram Files (x86)\005CIntel\005CIntel(R) Management Engine Components\005CDAL;C:\005CProgram Files\005CIntel\005CIntel(R) Management Engine Components\005CDAL;C:\005CProgram Files (x86)\005CIntel\005CIntel(R) Management Engine Components\005CIPT;C:\005CProgram Files\005CIntel\005CIntel(R) Management Engine Components\005CIPT;C:\005CWINDOWS\005CSystem32\005COpenSSH\005C;C:\005Capache-maven-3.6.1\005Cbin;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cbin;C:\005CUsers\005CUser\005CDesktop\005Candroid-sdk\005Ctools;C:\005CUsers\005CUser\005CDesktop\005Candroid-sdk\005Cplatform-tools;C:\005CProgram Files\005CGit\005Ccmd;C:\005CProgram Files\005CDocker\005CDocker\005Cresources\005Cbin;C:\005CProgramData\005CDockerDesktop\005Cversion-bin;C:\005CUsers\005CUser\005CAppData\005CRoaming\005CMicrosoft\005CWindows\005CStart Menu\005CPrograms\005CPython 3.8;C:\005CProgram Files\005Cnodejs\005C;C:\005CProgram Files (x86)\005CBrackets\005Ccommand;C:\005CUsers\005CUser\005CAppData\005CLocal\005CPrograms\005CPython\005CPython38-32\005CScripts\005C;C:\005CUsers\005CUser\005CAppData\005CLocal\005CPrograms\005CPython\005CPython38-32\005C;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cbin;C:\005CProgram Files\005CJetBrains\005CIntelliJ IDEA Community Edition 2019.1.3\005CNew folder\005CIntelliJ IDEA Community Edition 2019.1.3\005Cbin;;C:\005CUsers\005CUser\005CAppData\005CRoaming\005CDashlane\005C6.1940.1.24013\005Cbin\005CFirefox_Extension\005C{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\005Ccomponents;C:\005CUsers\005CUser\005CAppData\005CRoaming\005CDashlane\005C6.1940.1.24013\005Cucrt;C:\005CUsers\005CUser\005CAppData\005CRoaming\005CDashlane\005C6.1940.1.24013\005Cbin\005CQt;C:\005CUsers\005CUser\005CAppData\005CRoaming\005CDashlane\005C6.1940.1.24013\005Cucrt;C:\005CUsers\005CUser\005CAppData\005CRoaming\005CDashlane\005C6.1940.1.24013\005Cbin\005CSsl;C:\005CProgram Files\005CDocker Toolbox;C:\005CUsers\005CUser\005CAppData\005CLocal\005CMicrosoft\005CWindowsApps;C:\005CUsers\005CUser\005CAppData\005CRoaming\005Cnpm;.
+
+
+# Created at 2020-09-20T22:52:27.973
+Unexpected IOException: I,2,java.vm.info,mixed mode
+
+
+# Created at 2020-09-20T22:52:27.974
+Unexpected IOException: I,2,java.vendor,Oracle Corporation
+
+
+# Created at 2020-09-20T22:52:27.974
+Unexpected IOException: I,2,java.vm.version,25.211-b12
+
+
+# Created at 2020-09-20T22:52:27.975
+Unexpected IOException: I,2,java.ext.dirs,C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_211\005Cjre\005Clib\005Cext;C:\005CWINDOWS\005CSun\005CJava\005Clib\005Cext
+
+
+# Created at 2020-09-20T22:52:27.976
+Unexpected IOException: I,2,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created at 2020-09-20T22:52:28.105
+Unexpected IOException: I,2,java.class.version,52.0
+
+

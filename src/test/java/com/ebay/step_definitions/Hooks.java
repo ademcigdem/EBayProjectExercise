@@ -9,17 +9,16 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 
-
 @Slf4j
 public class Hooks {
 
-    private static Logger logger = Logger.getLogger(String.valueOf(Hooks.class));
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(Hooks.class));
     @Before
     public void setup(Scenario scenario){
         System.out.println(scenario.getName());
         Driver.get().manage().window().maximize();
-        logger.info("Before Setup Started");
-  //      Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        LOGGER.info("Before Setup Started");
+     //   Driver.get().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @After
@@ -28,7 +27,7 @@ public class Hooks {
             final byte[] screenshot = ((TakesScreenshot)Driver.get()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot,"image/png","screenshot");
         }
-        logger.info("After TearDown");
+        LOGGER.info("After TearDown");
         Driver.closeDriver();
     }
 
